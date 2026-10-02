@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 id="demo">my first javascript.</h2>
+
+    <!-- onclick >> html  atrbuite  هكتب فيه اكواد جافا-->
+
+    <!-- SINGLE COOT -->
+    <button onclick="document.getElementById('result').innerHTML = Date()">click to show</button>
+    <!-- لما اضغط على الزر يتحول على اتش 5 ويكتب القيمه فيها -->
+
+    <h5 id="result"></h5>
+
+    <button onclick="document.getElementById('myImage').src='img/turn.gif' ">turn on</button>
+    <img src="img/pic_bulboff.gif" id="myImage">
+    <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif' ">turn off</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
